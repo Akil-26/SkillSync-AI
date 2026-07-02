@@ -1,0 +1,248 @@
+.candidate-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.candidate-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-bottom: 1px solid #333333;
+    background-color: #1a1a1a;
+}
+
+.candidate-header-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.shortlist-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+}
+
+.shortlist-dropdown label {
+    font-size: 12px;
+    color: #999999;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background-color: #222222;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dropdown-button:hover {
+    border-color: #4a9eff;
+    background-color: #2a2a2a;
+}
+
+.dropdown-arrow {
+    font-size: 10px;
+    color: #999999;
+    transition: transform 0.2s ease;
+}
+
+.dropdown-button:hover .dropdown-arrow {
+    color: #4a9eff;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    background-color: #222222;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 10;
+    min-width: 120px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    background: none;
+    border: none;
+    color: #cccccc;
+    font-size: 12px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.dropdown-item.active {
+    background-color: #4a9eff;
+    color: #ffffff;
+}
+
+.candidate-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: #222222;
+    border: none;
+    color: #999999;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+
+.candidate-menu-btn:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #4a9eff;
+}
+
+.candidate-panel-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 24px;
+    overflow-y: auto;
+}
+
+.candidate-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.candidate-empty-icon {
+    font-size: 64px;
+    color: #4a9eff;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+.candidate-empty-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.candidate-empty-subtitle {
+    font-size: 13px;
+    color: #999999;
+    max-width: 300px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.candidate-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.candidate-loading {
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+}
+
+/* Scrollbar styling */
+.candidate-panel-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.candidate-panel-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.candidate-panel-content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.candidate-panel-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .candidate-panel {
+        min-height: 400px;
+    }
+
+    .candidate-panel-header {
+        padding: 16px 20px;
+    }
+
+    .candidate-empty-title {
+        font-size: 16px;
+    }
+
+    .candidate-empty-subtitle {
+        font-size: 12px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .candidate-panel {
+        min-height: 300px;
+    }
+
+    .candidate-panel-header {
+        padding: 12px 16px;
+        gap: 12px;
+    }
+
+    .candidate-header-left {
+        gap: 12px;
+    }
+
+    .candidate-panel-content {
+        padding: 24px 16px;
+    }
+
+    .candidate-empty-icon {
+        font-size: 48px;
+    }
+
+    .candidate-empty-title {
+        font-size: 14px;
+    }
+
+    .candidate-empty-subtitle {
+        font-size: 11px;
+    }
+}

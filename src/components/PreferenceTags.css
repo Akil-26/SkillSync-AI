@@ -1,0 +1,129 @@
+.preference-tags-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.preference-tags-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.preference-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.preference-tag {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    color: #cccccc;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.preference-tag.active {
+    background-color: #4a9eff;
+    border-color: #4a9eff;
+    color: #ffffff;
+}
+
+.preference-tag:hover {
+    border-color: #4a9eff;
+}
+
+.preference-tag.active:hover {
+    background-color: #3a8eef;
+    border-color: #3a8eef;
+}
+
+.tag-remove {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease;
+}
+
+.tag-remove:hover {
+    opacity: 0.7;
+}
+
+.preference-tag-add {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px dashed #333333;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.preference-tag-add:hover {
+    border-color: #4a9eff;
+    color: #4a9eff;
+}
+
+.tag-add-icon {
+    font-size: 16px;
+}
+
+.preference-tag-input {
+    padding: 6px 10px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    border: 1px solid #4a9eff;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: inherit;
+    outline: none;
+    width: 120px;
+    transition: all 0.2s ease;
+}
+
+.preference-tag-input::placeholder {
+    color: #666666;
+}
+
+.preference-tag-input:focus {
+    border-color: #4a9eff;
+    background-color: #222222;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .preference-tags-container {
+        gap: 6px;
+    }
+
+    .preference-tag {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    .preference-tag-input {
+        font-size: 11px;
+        width: 100px;
+    }
+}

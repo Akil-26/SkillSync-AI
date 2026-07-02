@@ -1,0 +1,162 @@
+.job-description-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.job-description-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.job-description-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    border: 2px dashed #333333;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 16px;
+    text-align: center;
+}
+
+.job-description-upload:hover {
+    border-color: #4a9eff;
+    background-color: #222222;
+}
+
+.job-description-upload.dragging {
+    border-color: #4a9eff;
+    background-color: rgba(74, 158, 255, 0.05);
+}
+
+.job-description-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.job-description-icon {
+    font-size: 32px;
+    color: #4a9eff;
+}
+
+.job-description-text {
+    font-size: 13px;
+    color: #cccccc;
+    margin: 0;
+}
+
+.job-description-files {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background-color: #1a1a1a;
+    border-radius: 6px;
+    border-left: 3px solid #4a9eff;
+    font-size: 12px;
+}
+
+.file-name {
+    color: #cccccc;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+.file-remove {
+    background: none;
+    border: none;
+    color: #999999;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    margin-left: 8px;
+    transition: color 0.2s ease;
+}
+
+.file-remove:hover {
+    color: #ff6b6b;
+}
+
+.job-description-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 8px 0;
+}
+
+.job-description-divider::before,
+.job-description-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #333333;
+}
+
+.job-description-divider span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.job-description-textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 12px;
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 13px;
+    resize: none;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.job-description-textarea::placeholder {
+    color: #666666;
+}
+
+.job-description-textarea:focus {
+    outline: none;
+    border-color: #4a9eff;
+    background-color: #222222;
+}
+
+.job-description-textarea:hover {
+    border-color: #444444;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .job-description-upload {
+        min-height: 100px;
+    }
+
+    .job-description-icon {
+        font-size: 24px;
+    }
+
+    .job-description-text {
+        font-size: 12px;
+    }
+}

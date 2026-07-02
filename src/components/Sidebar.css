@@ -1,0 +1,65 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.sidebar-subtitle {
+    font-size: 13px;
+    color: #999999;
+    font-weight: 400;
+}
+
+/* Section styling */
+.sidebar-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar-section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .sidebar {
+        gap: 20px;
+    }
+
+    .sidebar-title {
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .sidebar {
+        gap: 16px;
+    }
+
+    .sidebar-title {
+        font-size: 14px;
+    }
+
+    .sidebar-subtitle {
+        font-size: 12px;
+    }
+}

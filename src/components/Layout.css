@@ -1,0 +1,69 @@
+.layout-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+    gap: 24px;
+    padding: 24px;
+}
+
+.layout-sidebar {
+    width: 320px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.layout-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+/* Scrollbar styling */
+.layout-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.layout-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.layout-sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.layout-sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .layout-container {
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .layout-sidebar {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .layout-container {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .layout-sidebar {
+        width: 100%;
+    }
+}
