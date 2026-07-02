@@ -13,3 +13,18 @@
 2026-07-02 23:45:12 | INFO     | rank | === Stage 2: Ranking complete in 0.65s ===
 2026-07-02 23:45:12 | INFO     | rank | Wrote 8 predictions to C:\projects\Web_sites\SkillSync_Ai\outputs\predictions.json
 2026-07-02 23:45:12 | INFO     | rank | Full audit output at C:\projects\Web_sites\SkillSync_Ai\outputs\predictions_full.json
+2026-07-02 23:49:05 | INFO     | rank | === Stage 2: Ranking starting ===
+2026-07-02 23:49:05 | INFO     | rank | Time limit: 300s | top_k: all
+2026-07-02 23:49:05 | INFO     | rank | Loaded 10 candidates.
+2026-07-02 23:49:05 | INFO     | rank | Loaded parsed JD: title='Senior Python Backend Engineer'
+2026-07-02 23:49:05 | INFO     | rank | Loaded candidate embeddings: shape=(10, 384)
+2026-07-02 23:49:05 | INFO     | rank | Loaded JD embedding: shape=(384,)
+2026-07-02 23:49:05 | INFO     | rank | [TIMER] load_artifacts: 0.01s
+2026-07-02 23:49:05 | INFO     | rank | [TIMER] compute_similarities: 0.00s
+2026-07-02 23:49:05 | INFO     | rank | Computed similarities for 10 candidates.
+2026-07-02 23:49:05 | INFO     | rank | [TIMER] detect_duplicates: 0.00s
+2026-07-02 23:49:05 | INFO     | rank | [TIMER] rank_candidates: 0.00s
+2026-07-02 23:49:06 | INFO     | rank | Wrote Excel predictions to C:\projects\Web_sites\SkillSync_Ai\outputs\predictions.xlsx
+2026-07-02 23:49:06 | INFO     | rank | === Stage 2: Ranking complete in 0.76s ===
+2026-07-02 23:49:06 | INFO     | rank | Wrote 8 predictions to C:\projects\Web_sites\SkillSync_Ai\outputs\predictions.json
+2026-07-02 23:49:06 | INFO     | rank | Full audit output at C:\projects\Web_sites\SkillSync_Ai\outputs\predictions_full.json

@@ -26,3 +26,12 @@
 2026-07-02 23:45:07 | INFO     | precompute | [TIMER] compute_structured_features: 0.00s
 2026-07-02 23:45:07 | INFO     | precompute | === Stage 1: Precompute complete ===
 2026-07-02 23:45:07 | INFO     | precompute | Artifacts written to C:\projects\Web_sites\SkillSync_Ai\artifacts
+2026-07-02 23:48:55 | INFO     | precompute | === Stage 1: Precompute starting ===
+2026-07-02 23:48:55 | INFO     | precompute | Loaded 10 candidates from C:\projects\Web_sites\SkillSync_Ai\data\candidates.jsonl.gz
+2026-07-02 23:48:55 | INFO     | precompute | [TIMER] load_candidates: 0.00s
+2026-07-02 23:48:55 | INFO     | precompute | Parsed JD: title='Senior Python Backend Engineer', 6 required skills detected.
+2026-07-02 23:48:55 | INFO     | precompute | [TIMER] parse_job_description: 0.17s
+2026-07-02 23:49:04 | INFO     | precompute | [TIMER] compute_embeddings: 9.01s
+2026-07-02 23:49:04 | INFO     | precompute | [TIMER] compute_structured_features: 0.00s
+2026-07-02 23:49:04 | INFO     | precompute | === Stage 1: Precompute complete ===
+2026-07-02 23:49:04 | INFO     | precompute | Artifacts written to C:\projects\Web_sites\SkillSync_Ai\artifacts
