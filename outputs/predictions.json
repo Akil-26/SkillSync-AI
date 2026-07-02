@@ -1,0 +1,58 @@
+[
+  {
+    "candidate_id": "C007",
+    "rank": 1,
+    "score": 0.9057,
+    "justification": "12 yrs experience (seniority signal 0.90, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 4.27 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C003",
+    "rank": 2,
+    "score": 0.9032,
+    "justification": "8 yrs experience (seniority signal 0.95, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 3.61 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C001",
+    "rank": 3,
+    "score": 0.8984,
+    "justification": "9 yrs experience (seniority signal 0.75, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 3.64 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C005",
+    "rank": 4,
+    "score": 0.8545,
+    "justification": "5 yrs experience (seniority signal 0.50, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 2.68 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C002",
+    "rank": 5,
+    "score": 0.7951,
+    "justification": "7 yrs experience (seniority signal 0.30, skill overlap 83%). Matches required skills: docker, git, postgresql, python, rest api. Missing: django. Avg tenure 3.35 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C009",
+    "rank": 6,
+    "score": 0.779,
+    "justification": "6 yrs experience (seniority signal 0.30, skill overlap 83%). Matches required skills: docker, git, postgresql, python, rest api. Missing: django. Avg tenure 3.16 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C010",
+    "rank": 7,
+    "score": 0.7187,
+    "justification": "5 yrs experience (seniority signal 0.50, skill overlap 67%). Matches required skills: docker, git, python, rest api. Missing: django, postgresql. Avg tenure 2.83 yrs across 3 roles.",
+    "flags": []
+  },
+  {
+    "candidate_id": "C004",
+    "rank": 8,
+    "score": 0.6991,
+    "justification": "6 yrs experience (seniority signal 0.40, skill overlap 67%). Matches required skills: docker, git, python, rest api. Missing: django, postgresql. Avg tenure 2.97 yrs across 3 roles.",
+    "flags": []
+  }
+]

@@ -1,0 +1,42 @@
+project_name: SkillSync AI
+version: "1.0.0"
+team: SkillSync
+description: >
+  AI-powered candidate ranking pipeline that blends semantic similarity
+  (sentence-transformers embeddings) with structured feature analysis
+  (skills matching, experience scoring, behavioral composites, and
+  honeypot/fraud detection) to rank and justify candidate fit against
+  a job description.
+
+pipeline:
+  stage_1:
+    name: precompute
+    command: python -m src.precompute
+    network_required: true
+    description: >
+      Downloads the embedding model (first run only), generates candidate
+      and JD embeddings, computes structured feature tables, and caches
+      all artifacts for the offline ranking stage.
+
+  stage_2:
+    name: rank
+    command: python -m src.rank
+    network_required: false
+    time_limit_seconds: 300
+    description: >
+      Loads precomputed artifacts, computes semantic similarities, runs
+      the ranking engine (blend + gating), and outputs predictions.json.
+
+input_files:
+  - data/candidates.jsonl.gz
+  - data/job_description.docx
+
+output_files:
+  - outputs/predictions.json
+  - outputs/predictions_full.json
+
+constraints:
+  cpu_only: true
+  max_ram_gb: 16
+  no_network_at_inference: true
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2

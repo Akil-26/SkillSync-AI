@@ -1,0 +1,27 @@
+{
+  "title": "Senior Python Backend Engineer",
+  "full_text": "Senior Python Backend Engineer\nWe are looking for an experienced Python backend engineer to join our platform team. You will design and build scalable microservices, work with databases, and deploy to cloud infrastructure.\nMust Have\n5+ years of professional software development experience\nStrong proficiency in Python\nExperience with REST APIs and microservices architecture\nRequired Skills\nPython, Django, PostgreSQL, Docker, REST API, Git\nNice to Have\nKubernetes, AWS, CI/CD pipelines, Redis, FastAPI\nResponsibilities\nDesign and implement backend microservices\nWrite clean, testable, production-grade code\nCollaborate with frontend and data teams\nPerform code reviews and mentor junior engineers",
+  "must_have_requirements": [
+    "5+ years of professional software development experience",
+    "Strong proficiency in Python",
+    "Experience with REST APIs and microservices architecture"
+  ],
+  "nice_to_have": [
+    "Kubernetes, AWS, CI/CD pipelines, Redis, FastAPI"
+  ],
+  "responsibilities": [
+    "Design and implement backend microservices",
+    "Write clean, testable, production-grade code",
+    "Collaborate with frontend and data teams",
+    "Perform code reviews and mentor junior engineers"
+  ],
+  "required_skills": [
+    "Python",
+    "Django",
+    "PostgreSQL",
+    "Docker",
+    "REST API",
+    "Git"
+  ],
+  "min_experience_years": 5.0
+}

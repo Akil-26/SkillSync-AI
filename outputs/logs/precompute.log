@@ -1,0 +1,28 @@
+2026-07-02 23:36:46 | INFO     | precompute | === Stage 1: Precompute starting ===
+2026-07-02 23:36:46 | INFO     | precompute | Loaded 10 candidates from C:\projects\Web_sites\SkillSync_Ai\data\candidates.jsonl.gz
+2026-07-02 23:36:46 | INFO     | precompute | [TIMER] load_candidates: 0.00s
+2026-07-02 23:36:47 | INFO     | precompute | Parsed JD: title='Senior Python Backend Engineer', 6 required skills detected.
+2026-07-02 23:36:47 | INFO     | precompute | [TIMER] parse_job_description: 0.11s
+2026-07-02 23:42:48 | INFO     | precompute | === Stage 1: Precompute starting ===
+2026-07-02 23:42:48 | INFO     | precompute | Loaded 10 candidates from C:\projects\Web_sites\SkillSync_Ai\data\candidates.jsonl.gz
+2026-07-02 23:42:48 | INFO     | precompute | [TIMER] load_candidates: 0.01s
+2026-07-02 23:42:48 | INFO     | precompute | Parsed JD: title='Senior Python Backend Engineer', 6 required skills detected.
+2026-07-02 23:42:48 | INFO     | precompute | [TIMER] parse_job_description: 0.16s
+2026-07-02 23:44:31 | INFO     | precompute | === Stage 1: Precompute starting ===
+2026-07-02 23:44:31 | INFO     | precompute | Loaded 10 candidates from C:\projects\Web_sites\SkillSync_Ai\data\candidates.jsonl.gz
+2026-07-02 23:44:31 | INFO     | precompute | [TIMER] load_candidates: 0.00s
+2026-07-02 23:44:31 | INFO     | precompute | Parsed JD: title='Senior Python Backend Engineer', 6 required skills detected.
+2026-07-02 23:44:31 | INFO     | precompute | [TIMER] parse_job_description: 0.10s
+2026-07-02 23:44:56 | INFO     | precompute | === Stage 1: Precompute starting ===
+2026-07-02 23:44:56 | INFO     | precompute | Loaded 10 candidates from C:\projects\Web_sites\SkillSync_Ai\data\candidates.jsonl.gz
+2026-07-02 23:44:56 | INFO     | precompute | [TIMER] load_candidates: 0.00s
+2026-07-02 23:44:56 | INFO     | precompute | Parsed JD: title='Senior Python Backend Engineer', 6 required skills detected.
+2026-07-02 23:44:56 | INFO     | precompute | [TIMER] parse_job_description: 0.11s
+2026-07-02 23:45:04 | INFO     | precompute | [TIMER] compute_embeddings: 32.96s
+2026-07-02 23:45:04 | INFO     | precompute | [TIMER] compute_structured_features: 0.00s
+2026-07-02 23:45:04 | INFO     | precompute | === Stage 1: Precompute complete ===
+2026-07-02 23:45:04 | INFO     | precompute | Artifacts written to C:\projects\Web_sites\SkillSync_Ai\artifacts
+2026-07-02 23:45:07 | INFO     | precompute | [TIMER] compute_embeddings: 10.78s
+2026-07-02 23:45:07 | INFO     | precompute | [TIMER] compute_structured_features: 0.00s
+2026-07-02 23:45:07 | INFO     | precompute | === Stage 1: Precompute complete ===
+2026-07-02 23:45:07 | INFO     | precompute | Artifacts written to C:\projects\Web_sites\SkillSync_Ai\artifacts

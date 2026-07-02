@@ -1,0 +1,158 @@
+[
+  {
+    "candidate_id": "C007",
+    "score": 0.9057,
+    "excluded": false,
+    "justification": "12 yrs experience (seniority signal 0.90, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 4.27 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.7793,
+      "skill_match": 1.0,
+      "production_experience": 0.97,
+      "behavioral_composite": 1.0,
+      "honeypot_score": 0.0
+    },
+    "rank": 1
+  },
+  {
+    "candidate_id": "C003",
+    "score": 0.9032,
+    "excluded": false,
+    "justification": "8 yrs experience (seniority signal 0.95, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 3.61 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.7819,
+      "skill_match": 1.0,
+      "production_experience": 0.952,
+      "behavioral_composite": 1.0,
+      "honeypot_score": 0.0
+    },
+    "rank": 2
+  },
+  {
+    "candidate_id": "C001",
+    "score": 0.8984,
+    "excluded": false,
+    "justification": "9 yrs experience (seniority signal 0.75, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 3.64 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.829,
+      "skill_match": 1.0,
+      "production_experience": 0.909,
+      "behavioral_composite": 0.9,
+      "honeypot_score": 0.0
+    },
+    "rank": 3
+  },
+  {
+    "candidate_id": "C005",
+    "score": 0.8545,
+    "excluded": false,
+    "justification": "5 yrs experience (seniority signal 0.50, skill overlap 100%). Matches required skills: django, docker, git, postgresql, python, rest api. Avg tenure 2.68 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.8018,
+      "skill_match": 1.0,
+      "production_experience": 0.749,
+      "behavioral_composite": 0.893,
+      "honeypot_score": 0.0
+    },
+    "rank": 4
+  },
+  {
+    "candidate_id": "C002",
+    "score": 0.7951,
+    "excluded": false,
+    "justification": "7 yrs experience (seniority signal 0.30, skill overlap 83%). Matches required skills: docker, git, postgresql, python, rest api. Missing: django. Avg tenure 3.35 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.7483,
+      "skill_match": 0.8333,
+      "production_experience": 0.687,
+      "behavioral_composite": 1.0,
+      "honeypot_score": 0.0
+    },
+    "rank": 5
+  },
+  {
+    "candidate_id": "C009",
+    "score": 0.779,
+    "excluded": false,
+    "justification": "6 yrs experience (seniority signal 0.30, skill overlap 83%). Matches required skills: docker, git, postgresql, python, rest api. Missing: django. Avg tenure 3.16 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.7191,
+      "skill_match": 0.8333,
+      "production_experience": 0.665,
+      "behavioral_composite": 1.0,
+      "honeypot_score": 0.0
+    },
+    "rank": 6
+  },
+  {
+    "candidate_id": "C010",
+    "score": 0.7187,
+    "excluded": false,
+    "justification": "5 yrs experience (seniority signal 0.50, skill overlap 67%). Matches required skills: docker, git, python, rest api. Missing: django, postgresql. Avg tenure 2.83 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.7016,
+      "skill_match": 0.6667,
+      "production_experience": 0.649,
+      "behavioral_composite": 0.944,
+      "honeypot_score": 0.0
+    },
+    "rank": 7
+  },
+  {
+    "candidate_id": "C004",
+    "score": 0.6991,
+    "excluded": false,
+    "justification": "6 yrs experience (seniority signal 0.40, skill overlap 67%). Matches required skills: docker, git, python, rest api. Missing: django, postgresql. Avg tenure 2.97 yrs across 3 roles.",
+    "flags": [],
+    "components": {
+      "semantic_similarity": 0.6373,
+      "skill_match": 0.6667,
+      "production_experience": 0.645,
+      "behavioral_composite": 0.99,
+      "honeypot_score": 0.0
+    },
+    "rank": 8
+  },
+  {
+    "candidate_id": "C006",
+    "score": 0.0,
+    "excluded": true,
+    "justification": "Disqualified — min_experience_years: has 4, requires 5.0.",
+    "flags": [
+      "disqualified",
+      "disqualified:min_experience_years"
+    ],
+    "components": {
+      "semantic_similarity": 0.7015,
+      "skill_match": 0.6667,
+      "production_experience": 0.618,
+      "behavioral_composite": 0.778,
+      "honeypot_score": 0.0
+    },
+    "rank": 9
+  },
+  {
+    "candidate_id": "C008",
+    "score": 0.0,
+    "excluded": true,
+    "justification": "Disqualified — min_experience_years: has 1, requires 5.0.",
+    "flags": [
+      "disqualified",
+      "disqualified:min_experience_years"
+    ],
+    "components": {
+      "semantic_similarity": 0.6857,
+      "skill_match": 0.6667,
+      "production_experience": 0.406,
+      "behavioral_composite": 0.197,
+      "honeypot_score": 0.0
+    },
+    "rank": 10
+  }
+]

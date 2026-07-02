@@ -1,0 +1,236 @@
+[
+  {
+    "candidate_id": "C001",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.909,
+      "years_component": 0.96,
+      "seniority_component": 0.75,
+      "skill_overlap_ratio": 1.0
+    },
+    "behavioral": {
+      "behavioral_composite": 0.9,
+      "avg_tenure_years": 3.64,
+      "num_jobs": 3,
+      "short_stints": 1
+    }
+  },
+  {
+    "candidate_id": "C002",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.687,
+      "years_component": 0.867,
+      "seniority_component": 0.3,
+      "skill_overlap_ratio": 0.833
+    },
+    "behavioral": {
+      "behavioral_composite": 1.0,
+      "avg_tenure_years": 3.35,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C003",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.952,
+      "years_component": 0.916,
+      "seniority_component": 0.95,
+      "skill_overlap_ratio": 1.0
+    },
+    "behavioral": {
+      "behavioral_composite": 1.0,
+      "avg_tenure_years": 3.61,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C004",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.645,
+      "years_component": 0.812,
+      "seniority_component": 0.4,
+      "skill_overlap_ratio": 0.667
+    },
+    "behavioral": {
+      "behavioral_composite": 0.99,
+      "avg_tenure_years": 2.97,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C005",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.749,
+      "years_component": 0.747,
+      "seniority_component": 0.5,
+      "skill_overlap_ratio": 1.0
+    },
+    "behavioral": {
+      "behavioral_composite": 0.893,
+      "avg_tenure_years": 2.68,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C006",
+    "disqualifiers": {
+      "disqualified": true,
+      "reasons": [
+        "min_experience_years: has 4, requires 5.0"
+      ]
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.618,
+      "years_component": 0.671,
+      "seniority_component": 0.5,
+      "skill_overlap_ratio": 0.667
+    },
+    "behavioral": {
+      "behavioral_composite": 0.778,
+      "avg_tenure_years": 2.33,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C007",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.97,
+      "years_component": 1.0,
+      "seniority_component": 0.9,
+      "skill_overlap_ratio": 1.0
+    },
+    "behavioral": {
+      "behavioral_composite": 1.0,
+      "avg_tenure_years": 4.27,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C008",
+    "disqualifiers": {
+      "disqualified": true,
+      "reasons": [
+        "min_experience_years: has 1, requires 5.0"
+      ]
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.406,
+      "years_component": 0.289,
+      "seniority_component": 0.3,
+      "skill_overlap_ratio": 0.667
+    },
+    "behavioral": {
+      "behavioral_composite": 0.197,
+      "avg_tenure_years": 1.04,
+      "num_jobs": 2,
+      "short_stints": 1
+    }
+  },
+  {
+    "candidate_id": "C009",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.665,
+      "years_component": 0.812,
+      "seniority_component": 0.3,
+      "skill_overlap_ratio": 0.833
+    },
+    "behavioral": {
+      "behavioral_composite": 1.0,
+      "avg_tenure_years": 3.16,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  },
+  {
+    "candidate_id": "C010",
+    "disqualifiers": {
+      "disqualified": false,
+      "reasons": []
+    },
+    "honeypot": {
+      "honeypot_score": 0.0,
+      "signals": []
+    },
+    "production_experience": {
+      "production_experience_score": 0.649,
+      "years_component": 0.747,
+      "seniority_component": 0.5,
+      "skill_overlap_ratio": 0.667
+    },
+    "behavioral": {
+      "behavioral_composite": 0.944,
+      "avg_tenure_years": 2.83,
+      "num_jobs": 3,
+      "short_stints": 0
+    }
+  }
+]
