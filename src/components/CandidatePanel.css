@@ -1,3 +1,8 @@
+.candidate-count { color: #888; font-size: 0.85rem; }
+.candidate-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.candidate-table th, .candidate-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #2a2a2a; vertical-align: top; }
+.candidate-reasoning { max-width: 340px; color: #ccc; }
+
 .candidate-panel {
     display: flex;
     flex-direction: column;
