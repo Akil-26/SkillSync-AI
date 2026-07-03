@@ -1,3 +1,16 @@
+.shortlist-size-section { margin-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+.shortlist-size-section select { background: #1a1a1a; color: #fff; border: 1px solid #333; border-radius: 6px; padding: 6px; }
+.rank-btn { margin-top: 16px; padding: 10px; border-radius: 6px; border: none; background: #4a9eff; color: #fff; cursor: pointer; }
+.rank-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.error-text { color: #ff6b6b; font-size: 0.85rem; margin-top: 8px; }
+.history-section { margin-top: 24px; }
+.history-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 6px; max-height: 260px; overflow-y: auto; }
+.history-item { width: 100%; text-align: left; background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 6px; padding: 8px; cursor: pointer; display: flex; flex-direction: column; gap: 2px; }
+.history-item.active { border-color: #4a9eff; }
+.history-date { font-size: 0.7rem; color: #888; }
+.history-snippet { font-size: 0.8rem; color: #ccc; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.history-empty { color: #666; font-size: 0.85rem; }
+
 .sidebar {
     display: flex;
     flex-direction: column;
