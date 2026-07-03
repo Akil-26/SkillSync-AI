@@ -3,23 +3,23 @@ import './App.css'
 import Layout from './components/Layout'
 
 function App() {
-    const [jobDescription, setJobDescription] = useState('')
-    const [preferences, setPreferences] = useState(['Senior', 'Remote ok'])
-    const [jdFiles, setJdFiles] = useState([])
-    const [resumeFiles, setResumeFiles] = useState([])
+  const [jobDescription, setJobDescription] = useState('')
+  const [topK, setTopK] = useState(50)
+  const [results, setResults] = useState(null)
+  const [runId, setRunId] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
 
-    return (
-        <Layout
-            jobDescription={jobDescription}
-            setJobDescription={setJobDescription}
-            preferences={preferences}
-            setPreferences={setPreferences}
-            jdFiles={jdFiles}
-            setJdFiles={setJdFiles}
-            resumeFiles={resumeFiles}
-            setResumeFiles={setResumeFiles}
-        />
-    )
+  const state = {
+    jobDescription, setJobDescription,
+    topK, setTopK,
+    results, setResults,
+    runId, setRunId,
+    loading, setLoading,
+    error, setError,
+  }
+
+  return <Layout {...state} />
 }
 
 export default App
